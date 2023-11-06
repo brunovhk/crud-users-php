@@ -25,7 +25,8 @@ Este projeto é um exemplo de um aplicativo CRUD (Create, Read, Update, Delete) 
 1. Clone o repositório para o seu ambiente de desenvolvimento.
 
 2. Configure a conexão com o banco de dados no arquivo `"App/config.php"`.
-3. Execute o comando abaixo no diretório raiz do projeto para gerar o carregamento das classes.
+3. Execute a query `"database.sql"` que está dentro do diretório `"Modelagem Banco de Dados"` para que seja criado o banco de dados e a tabelas necessária para o projeto;
+4. Execute o comando abaixo no diretório raiz do projeto para gerar o carregamento das classes.
 
 ```
 composer dump-autoload -o
