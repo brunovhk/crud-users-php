@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{DOCUMENT_ROOT}/App%{REQUEST_URI} -f
+RewriteRule ^ App%{REQUEST_URI} [L]
+
+RewriteCond %{REQUEST_URI} !^/App/
+RewriteRule ^ index.php [QSA,L]
