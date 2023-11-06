@@ -28,7 +28,7 @@
         <th scope="row"><?= $user->id ?></th>
         <td><?= $user->name ?></td>
         <td><?= $user->email ?></td>
-        <td><?= $user->name ?></td>
+        <td></td>
         <td>
           <div class="d-flex justify-content-end">
             <a href="/user/edit?id=<?= $user->id ?>" class="me-2"><button type="button" class="btn btn-primary">Editar</button></a>
